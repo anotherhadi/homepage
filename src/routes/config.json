@@ -1,0 +1,45 @@
+{
+  "config": {
+    "title" : "Homepage",
+    "openLinksInNewTab": true,
+    "locale": "fr-FR",
+    "colors": {
+      "primary": "#FF0000",
+      "background": "#0F0000",
+      "foreground": "#FFFFFF",
+      "muted": "#666666"
+    },
+    "folders": [
+      {
+        "name": "Home",
+        "links": [
+          {
+            "title": "Anotherhadi",
+            "url": "https://anotherhadi.com",
+            "icon": "n"
+          },
+          {
+            "title": "Another",
+            "url": "https://anotherhadi.com",
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "name": "Home",
+        "links": [
+          {
+            "title": "Anotherhadi",
+            "url": "https://anotherhadi.com",
+            "icon": "n"
+          },
+          {
+            "title": "Another",
+            "url": "https://anotherhadi.com",
+            "icon": ""
+          }
+        ]
+      }
+    ]
+  }
+}
