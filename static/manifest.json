@@ -1,0 +1,12 @@
+{
+  "name": "Homepage",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}
