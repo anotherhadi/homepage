@@ -1,43 +1,34 @@
 {
   "config": {
-    "title" : "Homepage",
-    "openLinksInNewTab": true,
+    "title" : "Welcome Home",
+    "openLinksInNewTab": false,
     "locale": "fr-FR",
     "colors": {
-      "primary": "#FF0000",
-      "background": "#0F0000",
-      "foreground": "#FFFFFF",
-      "muted": "#666666"
+      "primary": "#FFD5C2",
+      "background": "#01010b",
+      "foreground": "#cdd6f4",
+      "muted": "#313244"
     },
     "folders": [
       {
-        "name": "Home",
+        "name": "Bookmarks",
         "links": [
-          {
-            "title": "Anotherhadi",
-            "url": "https://anotherhadi.com",
-            "icon": "n"
-          },
-          {
-            "title": "Another",
-            "url": "https://anotherhadi.com",
-            "icon": ""
-          }
+          {"title": "Github", "url": "https://github.com", "icon": ""},
+          {"title": "Proton", "url": "https://mail.proton.me/u/0/inbox", "icon": ""},
+          {"title": "Cloudflare One", "url": "https://one.dash.cloudflare.com/", "icon": ""},
+          {"title": "Chat GPT", "url": "https://chat.openai.com/", "icon": "󰭹"},
+          {"title": "Nixvim", "url": "https://nix-community.github.io/nixvim/", "icon": ""},
+          {"title": "Hyprland Wiki", "url": "https://wiki.hyprland.org/", "icon": "󰖬"},
+          {"title": "Nerdfont", "url": "https://www.nerdfonts.com/cheat-sheet", "icon": ""},
+          {"title": "Youtube", "url": "https://youtube.com", "icon": "󰗃"}
         ]
       },
       {
-        "name": "Home",
+        "name": "Work",
         "links": [
-          {
-            "title": "Anotherhadi",
-            "url": "https://anotherhadi.com",
-            "icon": "n"
-          },
-          {
-            "title": "Another",
-            "url": "https://anotherhadi.com",
-            "icon": ""
-          }
+          {"title": "Outlook", "url": "https://outlook.office.com/mail/", "icon": "󰴢"},
+          {"title": "Office", "url": "https://www.office.com/?auth=2", "icon": "󰏆"},
+          {"title": "Teams", "url": "https://teams.microsoft.com/_", "icon": "󰊻"}
         ]
       }
     ]

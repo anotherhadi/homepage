@@ -31,7 +31,7 @@
 	>
 		{title}
 	</h1>
-	<Separator class="my-4" />
+	<Separator class="my-4" style="background: {config.colors.muted};" />
 </header>
 
 <div class="w-full" style="color: {config.colors.foreground}">
@@ -41,13 +41,16 @@
 			{#each folder.links as link}
 				<a href={link.url} target={openOnNewTab ? '_blank' : '_self'} rel="noopener noreferrer">
 					<Button variant="ghost" size="lg" class="flex w-full items-center gap-5 p-5 py-10">
-						<span class="font-['NerdFont'] text-4xl">{link.icon}</span>
-						<div class="relative flex w-full flex-col gap-2 overflow-hidden">
+						<div class="w-16 overflow-hidden">
+							<span class="font-['NerdFont'] text-4xl">{link.icon}</span>
+						</div>
+						<div class="relative flex w-full flex-col gap-2 overflow-hidden text-left">
 							<p class="text-lg font-medium leading-none">
 								{link.title}
 							</p>
 							<p
-								class="overflow-hidden overflow-ellipsis whitespace-nowrap text-sm font-medium leading-none text-muted-foreground"
+								class="overflow-hidden overflow-ellipsis whitespace-nowrap text-sm font-medium leading-none"
+								style="color: {config.colors.muted}"
 							>
 								{link.url}
 							</p>
