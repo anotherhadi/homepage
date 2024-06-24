@@ -31,3 +31,20 @@ You can find an example of a config file in `src/routes/config.json`. You can co
 ## Screenshot:
 
 ![Screenshot](./docs/src/screenshot.png)
+
+## Installation:
+
+### Npm
+
+```bash
+git clone https://github.com/anotherhadi/homepage
+cd homepage
+npm install
+npm run build
+```
+
+The website content is on the `build` folder
+
+### Nix
+
+Todo
