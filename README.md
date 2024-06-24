@@ -30,4 +30,4 @@ You can find an example of a config file in `src/routes/config.json`. You can co
 
 ## Screenshot:
 
-![Screenshot](./screenshot.png)
+![Screenshot](./docs/src/screenshot.png)
