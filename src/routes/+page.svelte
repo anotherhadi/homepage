@@ -36,7 +36,7 @@
 
 <div class="w-full" style="color: {config.colors.foreground}">
 	{#each folders as folder}
-		<h2 class="my-4 text-2xl font-bold">{folder.name}</h2>
+		<h2 class="my-4 font-['NerdFont'] text-2xl font-bold">{folder.name}</h2>
 		<div class="mb-9 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
 			{#each folder.links as link}
 				<a href={link.url} target={openOnNewTab ? '_blank' : '_self'} rel="noopener noreferrer">
